@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int tabuleiro[5][5] = {0}; // Inicializa o tabuleiro com zeros
+    int tabuleiro[10][10] = {0}; // Inicializa o tabuleiro com zeros
 
-    // Posiciona um navio horizontalmente na linha 1 (linha 0 do array)
+    // Posiciona horizontalmente na linha 1 (linha 0 do array)
     for (int i = 0; i < 3; i++) {
         tabuleiro[1][i] = 3; // valor 3 representa parte de navio
         printf("Navio horizontal em: [%d][%d]\n", 1, i);
